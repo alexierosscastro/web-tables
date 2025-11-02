@@ -1,240 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weekly Schedule Assignment</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-    <table class="schedule">
-        <colgroup>
-            <col id="firstcolumn" />
-            <col class="daycolumns" span="5" />
-        </colgroup>
-        <thead>
-            <tr>
-                <th>Time</th>
-                <th>Mon</th>
-                <th>Tue</th>
-                <th>Wed</th>
-                <th>Thu</th>
-                <th>Fri</th>
-                <th>Sat</th>
-                <th>Sun</th>
-            </tr>
-        </thead>
-        <tbody>
-             <tr>
-                <th> 5:30 AM</th>
-                <td rowspan="4">Sleep</td>
-                <td rowspan="2">Sleep</td>
-                <td rowspan="4" colspan="3">Sleep</td>
-                <td></td>
-                <td></td>
-           
-            </tr>
-            <tr>
-                <th> 6:00 AM</th>
-                <td></td>
-                <td></td>
-                
-            </tr>
-            <tr>
-                <th> 7:30 AM</th>
-                <td >Make Breakfast</td>
-                <td></td>
-                <td></td>
-             
-             
-            </tr>
-            <tr>
-                <th> 8:00 AM</th>
-                <td rowspan="2">MG-206-HY01 Business Comm</td>
-                <td></td>
-                <td></td>
-          
-            </tr>
-            <tr>
-                <th> 9:30 AM</th>
-                <td>Head Home</td>
-                <td>Eat Breakfast</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+  <table class="schedule">
+    <caption>My Weekly Schedule!</caption>
+    <colgroup>
+      <col id="firstcolumn" />
+      <col class="daycolumns" span="7" />
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>5:30 AM</th>
+        <td class="sleep" rowspan="4">Sleep</td>
+        <td class="sleep" rowspan="1">Sleep</td>
+        <td class="sleep" rowspan="3" colspan="3">Sleep</td>
+        <td class="shower" rowspan="2">Wake up & Shower</td>
+        <td class="sleep" rowspan="4">Sleep</td>
+      </tr>
+      <tr><th>6:00 AM</th>
+        <td class="shower">Shower & Relax</td>
+    </tr>
 
-            </tr>
-            <tr>
-                <th> 10:00 AM</th>
-                <td rowspan="3"> Work on Assignments for Business Comm </td>
-                <td >Head Home</td>
-                <td rowspan="2">AC-227-HY02 Financial Accounting I </td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th> 11:30 AM</th>
-                <td rowspan="2">Work on Assignments</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th> 12:00 PM</th>
-                <td>Head Home</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th> 1:30 PM</th>
-                <td rowspan="2">Prepare and Eat Lunch</td>
-                <td>Organize Study Materials</td>
-                <td>Take a Walk</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-               
-            </tr>
-            <tr>
-                <th> 2:00 PM</th>
-                <td rowspan="2">EC-211-HY01 Prins of MacRoecon</td>
-                <td>Feed & Walk Dogs</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th> 3:30 PM</th>
-                <td rowspan="2">Feed & Walk Dogs</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                
-            </tr>
-            <tr>
-                <th> 4:00 PM</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              
-            </tr>
-            <tr>
-                <th> 5:00 PM</th>
-                <td rowspan="4">Work on Assignments for MacRoecon</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th> 6:00 PM</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            
-            </tr>
-            <tr>
-                <th> 7:00 PM</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              
-            </tr>
-            <tr>
-                <th> 8:00 PM</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th> 9:00 PM</th>
-                <td colspan="7" rowspan="2">Prepare & Eat Dinner</td>
-            </tr>
-            <tr>
-                <th> 10:00 PM</th>
-            </tr>
-            <tr>
-                <th> 11:00 PM</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th> 11:00 PM</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th> 12:00 AM</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th> 1:00 AM</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th> 2:00 AM</th>
-                <td colspan="7" rowspan="4">Sleep</td>
-            </tr>
-            <tr>
-                <th> 3:00 AM</th>
-            </tr>
-            <tr>
-                <th> 4:00 AM</th>
-                
-            </tr>
-            <tr>
-                <th> 5:00 AM</th>
-                
-            </tr>
-        </tbody>
-    </table>
+      <tr>
+        <th>7:30 AM</th>
+        <td class="meal">Make Breakfast</td>
+        <td class="errands" rowspan="2">Saturday Market @ 360 Building</td>
+      </tr>
+      <tr>
+        <th>8:00 AM</th>
+        <td class="class" rowspan="2">MG-206-HY01 Business Comm</td>
+        <td class="shower" colspan="3">Shower & Relax</td>
+      </tr>
+      <tr>
+        <th>9:30 AM</th>
+        <td class="shower">Shower & Relax</td>
+        <td class="meal" colspan="5">Eat Breakfast</td>
+      </tr>
+      <tr>
+        <th>10:00 AM</th>
+        <td class="assignment" rowspan="3" colspan="2">Work on Assignments</td>
+    
+        <td class="class" rowspan="2">AC-227-HY02 Financial Accounting I</td>
+        <td class="assignment" rowspan="3" colspan="4">Work on Assignments</td>
+      </tr>
+      <tr>
+        <th>11:30 AM</th>
+      </tr>
+      <tr>
+        <th>12:00 PM</th>
+        <td class="cleaning" rowspan="2">General Cleaning</td>
+      </tr>
+      <tr>
+        <th>1:30 PM</th>
+        <td class="meal" rowspan="2">Prepare and Eat Lunch</td>
+        <td class="study">Get Ready for Upcoming Class</td>
+        <td class="shower" rowspan="2">Shower & Relax</td>
+        <td class="cleaning" colspan="3">General Cleaning</td>
+      </tr>
+      <tr>
+        <th>2:00 PM</th>
+        <td class="class" rowspan="2">EC-211-HY01 Principles of Macroeconomics</td>
+        <td class="misc">Feed & Walk Dogs</td>
+        <td class="misc" colspan="3">Feed & Walk Dogs</td>
+      </tr>
+      <tr>
+        <th>3:30 PM</th>
+        <td class="misc" rowspan="2">Feed & Walk Dogs</td>
+        <td class="assignment" rowspan="3">Work on Assignments</td>
+        <td class="class" rowspan="2">CS-222-HY01 Web Design & Programming</td>
+        <td class="entertainment" rowspan="2" colspan="3">Video Games</td>
+      </tr>
+      <tr>
+        <th>4:00 PM</th>
+        <td class="study" rowspan="3">Study</td>
+      </tr>
+      <tr>
+        <th>5:00 PM</th>
+        <td class="assignment" rowspan="4">Work on Assignments</td>
+        <td class="entertainment" colspan="4">Watch Anime/Tv Shows</td>
+      </tr>
+      <tr>
+        <th>6:00 PM</th>
+        <td class="study" rowspan="3">Study</td>
+        <td class="assignment" rowspan="3" colspan="4">Work on Assignments</td>
+      </tr>
+      <tr>
+        <th>7:00 PM</th>
+        <td class="entertainment" rowspan="2">Video Games</td>
+      </tr>
+      <tr><th>8:00 PM</th></tr>
+      <tr>
+        <th>9:00 PM</th>
+        <td class="meal" colspan="7" rowspan="2">Prepare & Eat Dinner</td>
+      </tr>
+      <tr><th>10:00 PM</th></tr>
+      <tr>
+        <th>11:00 PM</th>
+        <td class="sleep" colspan="7" rowspan="3">Sleep</td>
+      </tr>
+      <tr><th>12:00 AM</th></tr>
+      <tr><th>1:00 AM</th></tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="8" class="footer">Weekly Schedule Summary</td>
+        </tr>
+    </tfoot>
+  </table>
 </body>
-
 </html>

@@ -1,24 +1,105 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #c7bbda;
+}
+
 .schedule {
-    font-family: Arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-.schedule th, .schedule td {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-col#firstcolumn {
-    background-color: rgb(197, 167, 230);
+  font-family: Arial, sans-serif;
+  border-collapse: collapse; 
+  border: 2px solid #4b1c61;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  margin-bottom: 40px;
+
 }
 
-table.schedule thead {
-    text-align: center;
-    color: white;
-    background-color: #4b1c61;
+.schedule caption {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
-td {
+.schedule th,
+.schedule td {
+  border: 1px solid #716565; 
+  text-align: center;
+  padding: 10px;
   word-wrap: break-word;
   max-width: 120px;
+  box-shadow: inset 0 0 2px #eee; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.schedule thead {
+  background-color: #4b1c61;
+  color: white;
+}
+
+col#firstcolumn {
+  background-color: rgb(197, 167, 230);
+}
+
+
+.sleep {
+  background-color: #e6f7ff;
+  color: #003366;
+}
+
+.errands {
+  background-color: #a8f2fd;
+  color: #000000;
+}
+
+.meal {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.class {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.assignment {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.study {
+  background-color: #e2e3e5;
+  color: #383d41;
+}
+
+.misc {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.entertainment {
+  background-color: #f1a4c7;
+  color: #4b1c61;
+}
+
+.cleaning {
+  background-color: #7c77dc;
+  color: #ffffff;
+}
+
+.shower {
+  background-color: #cbd5fa;
+  color: #070e4c;
+}
+
+.footer {
+  background-color: #4b1c61;
+  color: white;
+  padding: 10px;
+  font-family: 'Trebuchet MS', sans-serif;
 }
