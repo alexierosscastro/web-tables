@@ -1,0 +1,24 @@
+.schedule {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.schedule th, .schedule td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+col#firstcolumn {
+    background-color: rgb(197, 167, 230);
+}
+
+table.schedule thead {
+    text-align: center;
+    color: white;
+    background-color: #4b1c61;
+}
+
+td {
+  word-wrap: break-word;
+  max-width: 120px;
+}
