@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #d3d3d3;
+  background-color: #efece6;
 }
 
 .schedule {
@@ -14,7 +14,7 @@ html, body {
   border-collapse: collapse;
   border: 1px solid #ccc;
   margin-bottom: 40px;
-  
+
 }
 
 .schedule caption {
